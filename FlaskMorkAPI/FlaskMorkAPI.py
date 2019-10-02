@@ -16,6 +16,7 @@ def getPrice(Factor):
 @app.route('/POST',methods=['POST'])
 def getResult():
     j_data = request.json
+    app.logger.info(j_data)
     price = j_data['Price']
     face = j_data['Face']
     dict={}

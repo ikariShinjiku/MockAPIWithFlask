@@ -1,6 +1,9 @@
 from locust import HttpLocust, TaskSet, task
 import random
 import json
+import requests
+
+posturl='http://127.0.0.1:5000'
 class UserTaskGetAndPost(TaskSet):
     @task(1)
     def get_and_post(self):
@@ -8,12 +11,13 @@ class UserTaskGetAndPost(TaskSet):
         with self.client.get("/GET/"+str(price), catch_response=True) as response:
             if response.status_code == 200:
                 response.success()
-                getvalueresult = response.json
-                postresponse = self.client.post("/POST/",  data=getvalueresult, headers={'Content-Type': 'application/json'})
-                if postresponse.status_code == 200:
-                    response.success()
-                else:
-                    response.failure('Post request Failed!')
+                getvalueresult = response.content
+                #postresponse = requests.post(posturl+'/POST', json=json.loads(getvalueresult), headers={'Content-Type': 'application/json'})
+                with self.client.post(url=posturl+'/POST', data=getvalueresult, headers={'Content-Type': 'application/json'}, catch_response=True) as PostResponse:
+                    if PostResponse.status_code == 200:
+                        PostResponse.success()
+                    else:
+                        PostResponse.failure("Assert failed with post request!")
             else:
                 response.failure('Get request Failed!')
     @task(2)
@@ -25,17 +29,14 @@ class UserTaskGetAndPost(TaskSet):
             else:
                 response.failure('Get request Failed!')
 
-
-
-
-
 class UserOne(HttpLocust):
     task_set = UserTaskGetAndPost
     weight = 1
     min_wait = 100
     max_wait = 300
     stop_timeout = 1
-    host = "http://127.0.0.1:5000"
+    host = posturl
 
 if __name__ == '__main__':
-    UserOne().run()
+    import os
+    os.system("locust -f LoadTest.py")
