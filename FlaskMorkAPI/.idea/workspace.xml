@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="909e86e0-469b-4235-a432-b1f478c2db77" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LocustProject/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/FlaskMorkAPI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FlaskMorkAPI.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FlaskMorkAPI.py" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskMorkAPI.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LocustProject/.idea/LocustProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../LocustProject/.idea/LocustProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LocustProject/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LocustProject/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LocustProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LocustProject/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LocustProject/LoadTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/../LocustProject/LoadTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LocustProject/TestPostMethod.py" beforeDir="false" afterPath="$PROJECT_DIR$/../LocustProject/TestPostMethod.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +28,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LocustProject" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.idesettings.debugger.python" />
   </component>
   <component name="PyDebuggerOptionsProvider">
@@ -110,7 +105,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/FlaskMorkAPI.py</url>
-          <line>19</line>
+          <line>23</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

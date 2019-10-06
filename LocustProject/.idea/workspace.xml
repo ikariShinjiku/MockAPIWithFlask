@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e11dfd0e-d623-4a5e-97bd-62c1a7599a93" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../FlaskMorkAPI/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskMorkAPI/.idea/FlaskMorkAPI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../FlaskMorkAPI/.idea/FlaskMorkAPI.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlaskMorkAPI/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FlaskMorkAPI/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../FlaskMorkAPI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FlaskMorkAPI/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../FlaskMorkAPI/FlaskMorkAPI.py" beforeDir="false" afterPath="$PROJECT_DIR$/../FlaskMorkAPI/FlaskMorkAPI.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/LocustProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LocustProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LoadTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/LoadTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestPostMethod.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestPostMethod.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +31,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../FlaskMorkAPI" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -51,7 +46,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.LoadTest (1)">
+  <component name="RunManager" selected="Python.TestPostMethod">
     <configuration name="LoadTest (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LocustProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -117,8 +112,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.LoadTest (1)" />
         <item itemvalue="Python.TestPostMethod" />
+        <item itemvalue="Python.LoadTest (1)" />
         <item itemvalue="Python.LoadTest" />
       </list>
     </recent_temporary>
